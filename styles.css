@@ -1,0 +1,39 @@
+.parent {
+    border: 1px blue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    border: 0px;
+    display: flex; /* since this has the child too */
+    justify-content: left;
+}
+  
+.categories {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.icon {
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    justify-content: left;
+}
+
+.information {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+
+
+
+
